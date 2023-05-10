@@ -1,6 +1,6 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
+// const bodyParser = require('body-parser');
+// const cors = require('cors');
 
 // CONST
 const PORT = 3001;
@@ -32,7 +32,7 @@ const PORT = 3001;
 
 
 // http request
-app.use('/', (req,res) => { res.json('funcionando mk, pero solo con un get :v')});
+app.get('/', (req,res) => { res.json('funcionando mk, pero solo con un get :v')});
 // app.use('/login', loginRouter);
 // app.use('/upload', uploadRouter);
 // app.use('/users', usersRouter);
