@@ -70,7 +70,6 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "start" : "concurrently \"npm run dev\" \"cd ../front-remission && npm run dev\"",
     "dev": "nodemon --watch ./index.js --watch ./src"
   },
   "author": "sebastian melendez",
