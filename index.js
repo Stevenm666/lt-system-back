@@ -24,7 +24,9 @@ const app = express();
 // middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+    origin: '*'
+}));
 
 app.use((req, res, next) => middlewareHeaders(req, res, next)) // validate headers
 app.use(express.static('public')); // static image
