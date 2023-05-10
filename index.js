@@ -32,6 +32,7 @@ app.set('view engine', 'hbs'); // allow hbs files
 
 
 // http request
+app.use('/status',(req,res) => json.send('working'))
 app.use('/login', loginRouter);
 app.use('/upload', uploadRouter);
 app.use('/users', usersRouter);
