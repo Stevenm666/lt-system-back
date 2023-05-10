@@ -19,7 +19,7 @@ const PORT = 3001;
 // const middlewareHeaders = require('./src/middlewares/headers');
 
 // // create app
-// const app = express();
+const app = express();
 
 // // middleware
 // app.use(bodyParser.urlencoded({ extended: true }));
@@ -29,7 +29,7 @@ const PORT = 3001;
 // app.use((req, res, next) => middlewareHeaders(req, res, next)) // validate headers
 // app.use(express.static('public')); // static image
 // app.set('view engine', 'hbs'); // allow hbs files
-
+app.listen(PORT)
 
 // http request
 app.get('/', (req,res) => { res.json('funcionando mk, pero solo con un get :v')});
@@ -43,4 +43,6 @@ app.get('/', (req,res) => { res.json('funcionando mk, pero solo con un get :v')}
 // app.use('/box_movement', boxMovementRouter)
 
 // listen
-app.listen(PORT)
+
+
+module.exports = app
