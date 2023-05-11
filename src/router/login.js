@@ -2,7 +2,7 @@ const express = require("express");
 // database
 const db = require("../connect/connection.js");
 // utils
-// const utils = require("../utils/utils.js");
+const utils = require("../utils/utils.js");
 // // login router const
 // const loginRouter = express.Router();
 
