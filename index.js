@@ -6,7 +6,7 @@ const cors = require('cors');
 const PORT = 3001;
 
 // // import routers
-const loginRouter = require('./src/router/login.js');
+// const loginRouter = require('./src/router/login.js');
 // const uploadRouter = require('./src/router/upload');
 // const usersRouter = require('./src/router/users');
 // const productsRouter = require('./src/router/products');
