@@ -20,7 +20,8 @@ loginRouter.post("/", async (req, res) => {
     // );
     utils.sucessResponse(res, [], "sucess");
   } catch (e) {
-    utils.errorReponse(res, 500, "Error en la conexión a la base de datos");
+    // utils.errorReponse(res, 500, "Error en la conexión a la base de datos");
+    utils.errorReponse(res, 500, e);
   }
 });
 
