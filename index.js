@@ -45,4 +45,4 @@ app.get('/', (req,res) => { res.json('funcionando mk, pero solo con un get :v')}
 // listen
 
 
-module.exports = app
+// module.exports = app
