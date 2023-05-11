@@ -33,7 +33,7 @@ app.listen(PORT)
 
 // http request
 app.get('/', (req,res) => { res.json('funcionando mk, pero solo con un get :v')});
-// app.use('/login', loginRouter);
+app.use('/login', loginRouter);
 // app.use('/upload', uploadRouter);
 // app.use('/users', usersRouter);
 // app.use('/products', productsRouter)
