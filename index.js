@@ -6,14 +6,14 @@ const express = require('express');
 const PORT = 3001;
 
 // // import routers
-const loginRouter = require('./src/router/login');
-const uploadRouter = require('./src/router/upload');
-const usersRouter = require('./src/router/users');
-const productsRouter = require('./src/router/products');
-const remissionRouter = require('./src/router/remission');
-const pdfRouter = require('./src/router/pdf');
-const boxRouter = require('./src/router/box');
-const boxMovementRouter = require('./src/router/box_movement');
+// const loginRouter = require('./src/router/login');
+// const uploadRouter = require('./src/router/upload');
+// const usersRouter = require('./src/router/users');
+// const productsRouter = require('./src/router/products');
+// const remissionRouter = require('./src/router/remission');
+// const pdfRouter = require('./src/router/pdf');
+// const boxRouter = require('./src/router/box');
+// const boxMovementRouter = require('./src/router/box_movement');
 
 // // import middleware
 // const middlewareHeaders = require('./src/middlewares/headers');
